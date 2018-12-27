@@ -13,7 +13,7 @@ class Driver {
     console.log(this.startDate)
 		//calculates the number of years driven given an endDate
 		debugger;
-		return year - this.startDate.getFullYear();
+		// return year - this.startDate.getFullYear();
 	}
 }
 
