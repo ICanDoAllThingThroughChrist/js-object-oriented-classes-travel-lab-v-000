@@ -48,7 +48,7 @@ class Route {
 		// this.beginningLocation.vertical - this.endingLocation.vertical
 		debugger;
     console.log(Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical));
-		//how to assign value from Math.abs value to a variable ? const northSouth : rereview MDN on Math.abs
+		//how to assign value from Math.abs value to a variable ? const northSouth : rereview MDN on Math.abs()
 		const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
 		console.log(northSouth)
 		//
