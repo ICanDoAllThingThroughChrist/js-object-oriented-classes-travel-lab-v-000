@@ -11,6 +11,7 @@ class Driver {
 	yearsExperienceFromBeginningOf(year) {
     console.log(year)
     console.log(this.startDate.getFullYear())
+		//calculates the number of years driven given an endDate
 		return year - this.startDate.getFullYear();
 	}
 }
