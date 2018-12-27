@@ -28,14 +28,17 @@ class Route {
 	}
 
 	blocksTravelled() {
+		//goal:returns an integer with the number of blocks travelled
+		//to travel from 15th Street and 1st Avenue to 20th Street and Lexington Avenue
+		//is to travel eight blocks (five blocks North and three blocks West).
 		let avenues = [
-		  '1st Avenue',
-		  '2nd Avenue',
-		  '3rd Avenue',
-		  'Lexington Avenue',
-		  'Park',
-		  'Madison Avenue',
-		  '5th Avenue'
+		  '1st Avenue',      //block 0
+		  '2nd Avenue',      //block 1
+		  '3rd Avenue',      //block 2
+		  'Lexington Avenue',//block 3
+		  'Park',            //block 4
+		  'Madison Avenue',  //block 5
+		  '5th Avenue'       //block 6
 		];
     console.log(this.beginningLocation.vertical);
     console.log(this.endingLocation.vertical);
