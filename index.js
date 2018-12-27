@@ -31,6 +31,7 @@ class Route {
 		//goal:returns an integer with the number of blocks travelled
 		//to travel from 15th Street and 1st Avenue to 20th Street and Lexington Avenue
 		//is to travel eight blocks (five blocks North and three blocks West).
+		//eastWest variable assignment: to travel East and West you cross avenues
 		let avenues = [
 		  '1st Avenue',      //block 0
 		  '2nd Avenue',      //block 1
