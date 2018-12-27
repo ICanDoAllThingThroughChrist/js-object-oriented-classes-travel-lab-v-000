@@ -46,6 +46,7 @@ class Route {
 		debugger;
 		//how to progam difference of this.beginningLocation.vertical and this.endingLocation.vertical
 		this.beginningLocation.vertical - this.endingLocation.vertical
+		debugger;
     // console.log(Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical));
 		// const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
 		console.log(northSouth)
