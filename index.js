@@ -51,7 +51,8 @@ class Route {
 		//how to assign value from Math.abs value to a variable ? const northSouth : rereview MDN on Math.abs() to return value!
 		const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
 		console.log(northSouth)
-		//
+		//how to solve eastWest of sum of northSouth and eastWest?
+		//determine avenues' array's index of driver.beginningLocation.horizontal
     console.log(avenues.indexOf(this.beginningLocation.horizontal));
 		debugger;
     console.log(avenues.indexOf(this.endingLocation.horizontal));
