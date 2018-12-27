@@ -52,7 +52,7 @@ class Route {
 		const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
 		console.log(northSouth)
 		//how to solve eastWest of sum of northSouth and eastWest?
-		//determine avenues' array's index of driver.beginningLocation.horizontal
+		//determine avenues' array index # for driver.beginningLocation.horizontal
     console.log(avenues.indexOf(this.beginningLocation.horizontal));
 		debugger;
     console.log(avenues.indexOf(this.endingLocation.horizontal));
