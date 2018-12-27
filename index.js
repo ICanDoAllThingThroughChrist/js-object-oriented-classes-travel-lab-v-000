@@ -4,6 +4,7 @@ class Driver {
 		this.name = name;
 		//returns a JavaScript Date object
 		//how to create a new Date object from argument, startDate?
+		//sets the driver startDate as a date object
 		this.startDate = new Date(startDate);
 	}
 
