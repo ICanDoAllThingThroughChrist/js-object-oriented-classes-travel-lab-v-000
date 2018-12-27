@@ -1,6 +1,7 @@
 class Driver {
 	constructor(name, startDate) {
 		this.name = name;
+		//returns a JavaScript Date object
 		//how to create a new Date object from argument, startDate?
 		this.startDate = new Date(startDate);
 	}
