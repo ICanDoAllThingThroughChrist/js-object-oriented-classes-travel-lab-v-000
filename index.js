@@ -55,6 +55,7 @@ class Route {
 		//how determine avenues' array index # for driver.beginningLocation.horizontal
 		//google to search and find index of array in javascript ? array.indexOf(???)
 		console.log(this.beginningLocation.horizontal)
+		console.log(this.endingLocation.horizontal)
     console.log(avenues.indexOf(this.beginningLocation.horizontal));
 		debugger;
     console.log(avenues.indexOf(this.endingLocation.horizontal));
