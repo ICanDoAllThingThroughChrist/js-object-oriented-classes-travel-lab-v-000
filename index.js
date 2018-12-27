@@ -13,7 +13,7 @@ class Driver {
     console.log(this.startDate)
 		//calculates the number of years driven given an endDate
 		debugger;
-		//driver.startDate.getFullYear(); -> 1995 ? this.startDate.getFullYear(); : "";
+		//driver.startDate.getFullYear(); -> 1995 ? this: Driver (from Chrome Dev) -> this.startDate.getFullYear(); : "";
 		// return year - this.startDate.getFullYear();
 	}
 }
