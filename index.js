@@ -58,11 +58,11 @@ class Route {
 		////how determine avenues' array index # for driver.beginningLocation.horizontal
 		//google to search and find index of array in javascript ? array.indexOf(???) : google search for js method for array index search and find
     console.log(avenues.indexOf(this.beginningLocation.horizontal));
-		start = avenues.indexOf(this.beginningLocation.horizontal);
+		let start = avenues.indexOf(this.beginningLocation.horizontal);
 		console.log(start)
 		debugger;
     console.log(avenues.indexOf(this.endingLocation.horizontal));
-		end = avenues.indexOf(this.endingLocation.horizontal)
+		let end = avenues.indexOf(this.endingLocation.horizontal)
 		debugger;
     console.log(Math.abs(avenues.indexOf(this.beginningLocation.horizontal) - avenues.indexOf(this.endingLocation.horizontal)));
 		const eastWest = Math.abs(avenues.indexOf(this.beginningLocation.horizontal) - avenues.indexOf(this.endingLocation.horizontal));
