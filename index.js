@@ -63,6 +63,7 @@ class Route {
 		debugger;
     console.log(avenues.indexOf(this.endingLocation.horizontal));
 		let end = avenues.indexOf(this.endingLocation.horizontal)
+		console.log(end)
 		debugger;
     console.log(Math.abs(avenues.indexOf(this.beginningLocation.horizontal) - avenues.indexOf(this.endingLocation.horizontal)));
 		const eastWest = Math.abs(avenues.indexOf(this.beginningLocation.horizontal) - avenues.indexOf(this.endingLocation.horizontal));
