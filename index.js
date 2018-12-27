@@ -1,4 +1,5 @@
 class Driver {
+	//A driver can be initialized with a name, and a string representing the day
 	constructor(name, startDate) {
 		this.name = name;
 		//returns a JavaScript Date object
