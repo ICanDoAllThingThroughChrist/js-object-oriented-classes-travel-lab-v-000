@@ -19,6 +19,9 @@ class Driver {
 }
 
 class Route {
+	//initialized with two arguments, a `beginningLocation` and an
+	 // `endingLocation`. Both of these arguments are JavaScript objects with attributes
+	//  of horizontal and vertical
 	constructor(beginningLocation, endingLocation) {
 		this.beginningLocation = beginningLocation;
 		this.endingLocation = endingLocation;
