@@ -45,10 +45,11 @@ class Route {
     console.log(this.endingLocation.vertical);
 		debugger;
 		//how to progam difference of this.beginningLocation.vertical and this.endingLocation.vertical
-		this.beginningLocation.vertical - this.endingLocation.vertical
+		// this.beginningLocation.vertical - this.endingLocation.vertical
 		debugger;
-    // console.log(Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical));
-		// const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
+    console.log(Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical));
+		//how to assign value from Math.abs value to a variable ? const northSouth : rereview MDN on Math.abs
+		const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
 		console.log(northSouth)
 		//
     console.log(avenues.indexOf(this.beginningLocation.horizontal));
