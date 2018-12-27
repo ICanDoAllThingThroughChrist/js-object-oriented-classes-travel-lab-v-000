@@ -44,9 +44,10 @@ class Route {
     console.log(this.beginningLocation.vertical);
     console.log(this.endingLocation.vertical);
 		debugger;
-    console.log(Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical));
-		const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
+    // console.log(Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical));
+		// const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
 		console.log(northSouth)
+		//
     console.log(avenues.indexOf(this.beginningLocation.horizontal));
 		debugger;
     console.log(avenues.indexOf(this.endingLocation.horizontal));
